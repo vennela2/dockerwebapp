@@ -165,18 +165,6 @@
 		    <version>2.8.2</version>
 		</dependency>
     </dependencies>
-	<repositories>
-	<repository>
-  <id>vgfeed</id>
-  <url>https://pkgs.dev.azure.com/kotakailash53/my-project/_packaging/vgfeed/maven/v1</url>
-  <releases>
-    <enabled>true</enabled>
-  </releases>
-  <snapshots>
-    <enabled>true</enabled>
-  </snapshots>
-</repository>
-	</repositories>
      <build>
         <plugins>
             <plugin>
@@ -222,14 +210,8 @@
     </build>
 	<distributionManagement>
     <repository>
-  <id>vgfeed</id>
-  <url>https://pkgs.dev.azure.com/kotakailash53/my-project/_packaging/vgfeed/maven/v1</url>
-  <releases>
-    <enabled>true</enabled>
-  </releases>
-  <snapshots>
-    <enabled>true</enabled>
-  </snapshots>
-</repository>
+        <id>vgfeed</id>
+        <url>https://pkgs.dev.azure.com/kotakailash53/my-project/_packaging/vgfeed/maven/v1</url>
+    </repository>
 </distributionManagement>
 </project>
